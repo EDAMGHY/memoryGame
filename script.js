@@ -95,7 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
         cardChosenId = []
         result.textContent = cardsWon.length;
         if (cardsWon.length === cardArray.length / 2) {
-            result.textContent = 'Congrats! You found Them All!'
+            result.textContent = 'Mrigel Albatal jebtihum kamlin :)!'
+            result.style.fontSize = '80%';
+            result.style.color = 'greenyellow';
         }
     }
     // alert 
